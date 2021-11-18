@@ -14,10 +14,11 @@
 
 
 //Object creation
-let square = new shape ('square', 4, 5)
+let square = new Square ( 5)
 console.log(square)
-let triangle = new shape('triangle', 3, 3)
+let triangle = new Shape('triangle', 3, 3)
 console.log(triangle)
 //Object method calling
 square.calcPerimeter()
+square.calcArea()
 triangle.calcPerimeter()

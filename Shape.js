@@ -1,4 +1,4 @@
-class shape {
+class Shape {
     //constructor
     constructor(name, sides, sideLength) {
         this.name = name;
@@ -8,6 +8,6 @@ class shape {
     //method
 calcPerimeter() {
         this.perimeter = this.sides * this.sideLength
-    console.log(this.perimeter)
+    console.log('Perimeter: ' + this.perimeter)
 }
 }
