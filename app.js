@@ -1,5 +1,5 @@
 //Shape constructor
-function Shape(name, sides, sideLength) {
+/*function Shape(name, sides, sideLength) {
     //atributes - fields
     this.name = name;
     this.sides = sides;
@@ -10,11 +10,13 @@ function Shape(name, sides, sideLength) {
         console.log(this.perimeter)
     }
 }
+*/
 
-//Object constructor
-let square = new Shape ('square', 4, 5)
+
+//Object creation
+let square = new shape ('square', 4, 5)
 console.log(square)
-let triangle = new Shape('triangle', 3, 3)
+let triangle = new shape('triangle', 3, 3)
 console.log(triangle)
 //Object method calling
 square.calcPerimeter()
